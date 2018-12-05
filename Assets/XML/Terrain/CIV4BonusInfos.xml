@@ -1789,7 +1789,7 @@
 			<Civilopedia>TXT_KEY_BONUS_WHALE_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_WHALE</ArtDefineTag>
-			<TechReveal>TECH_SAILING</TechReveal>
+			<TechReveal>TECH_COMPASS</TechReveal>
 			<TechCityTrade>NONE</TechCityTrade>
 			<TechObsolete>TECH_COMBUSTION</TechObsolete>
 			<YieldChanges>
