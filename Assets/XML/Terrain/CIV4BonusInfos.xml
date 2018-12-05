@@ -587,7 +587,7 @@
 			<Civilopedia>TXT_KEY_BONUS_BANANA_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_BANANA</ArtDefineTag>
-			<TechReveal>NONE</TechReveal>
+			<TechReveal>TECH_POLYTHEISM</TechReveal>
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
@@ -1175,7 +1175,7 @@
 			<Civilopedia>TXT_KEY_BONUS_DYE_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_DYE</ArtDefineTag>
-			<TechReveal>NONE</TechReveal>
+			<TechReveal>TECH_ANIMAL_HUSBANDRY</TechReveal>
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
@@ -1403,7 +1403,7 @@
 			<Civilopedia>TXT_KEY_BONUS_INCENSE_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_INCENSE</ArtDefineTag>
-			<TechReveal>NONE</TechReveal>
+			<TechReveal>TECH_MEDITATION</TechReveal>
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
@@ -1511,7 +1511,7 @@
 			<Civilopedia>TXT_KEY_BONUS_SILK_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_SILK</ArtDefineTag>
-			<TechReveal>NONE</TechReveal>
+			<TechReveal>TECH_FISHING</TechReveal>
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
@@ -1623,7 +1623,7 @@
 			<Civilopedia>TXT_KEY_BONUS_SPICES_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_SPICES</ArtDefineTag>
-			<TechReveal>NONE</TechReveal>
+			<TechReveal>TECH_AGRICULTURE</TechReveal>
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
@@ -1685,7 +1685,7 @@
 			<Civilopedia>TXT_KEY_BONUS_SUGAR_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_SUGAR</ArtDefineTag>
-			<TechReveal>NONE</TechReveal>
+			<TechReveal>TECH_AGRICULTURE</TechReveal>
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
@@ -1739,7 +1739,7 @@
 			<Civilopedia>TXT_KEY_BONUS_WINE_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_WINE</ArtDefineTag>
-			<TechReveal>NONE</TechReveal>
+			<TechReveal>TECH_POTTERY</TechReveal>
 			<TechCityTrade>TECH_MONARCHY</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
