@@ -600,7 +600,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>4</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -611,7 +611,7 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>16</iTilesPer>
+			<iTilesPer>32</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>2</iUnique>
 			<iGroupRange>0</iGroupRange>
@@ -654,7 +654,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>6</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>50</iMaxLatitude>
@@ -665,12 +665,12 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>32</iTilesPer>
+			<iTilesPer>64</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>1</iUnique>
 			<iGroupRange>0</iGroupRange>
 			<iGroupRand>0</iGroupRand>
-			<bArea>0</bArea>
+			<bArea>1</bArea>
 			<bHills>0</bHills>
 			<bFlatlands>0</bFlatlands>
 			<bNoRiverSide>0</bNoRiverSide>
@@ -703,7 +703,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>4</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -714,7 +714,7 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>16</iTilesPer>
+			<iTilesPer>32</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
 			<iGroupRange>0</iGroupRange>
@@ -753,7 +753,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>4</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>50</iMaxLatitude>
@@ -764,7 +764,7 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>16</iTilesPer>
+			<iTilesPer>32</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
 			<iGroupRange>0</iGroupRange>
@@ -806,7 +806,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>6</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMinLatitude>40</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -817,12 +817,12 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>32</iTilesPer>
+			<iTilesPer>64</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>1</iUnique>
 			<iGroupRange>0</iGroupRange>
 			<iGroupRand>0</iGroupRand>
-			<bArea>0</bArea>
+			<bArea>1</bArea>
 			<bHills>0</bHills>
 			<bFlatlands>0</bFlatlands>
 			<bNoRiverSide>0</bNoRiverSide>
@@ -855,7 +855,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>4</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>30</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -866,7 +866,7 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>16</iTilesPer>
+			<iTilesPer>32</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>2</iUnique>
 			<iGroupRange>0</iGroupRange>
@@ -914,7 +914,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>6</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -925,7 +925,7 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>32</iTilesPer>
+			<iTilesPer>64</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>1</iUnique>
 			<iGroupRange>0</iGroupRange>
@@ -967,7 +967,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>4</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>10</iMinLatitude>
 			<iMaxLatitude>50</iMaxLatitude>
@@ -978,7 +978,7 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>16</iTilesPer>
+			<iTilesPer>32</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
 			<iGroupRange>0</iGroupRange>
@@ -1026,7 +1026,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>4</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>40</iMaxLatitude>
@@ -1037,7 +1037,7 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>16</iTilesPer>
+			<iTilesPer>32</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
 			<iGroupRange>0</iGroupRange>
@@ -1085,7 +1085,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>4</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>30</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1096,7 +1096,7 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>16</iTilesPer>
+			<iTilesPer>32</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
 			<iGroupRange>0</iGroupRange>
@@ -1138,7 +1138,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>0</iHappiness>
 			<iPlacementOrder>4</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1149,7 +1149,7 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<iPlayer>0</iPlayer>
-			<iTilesPer>16</iTilesPer>
+			<iTilesPer>32</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
 			<iGroupRange>0</iGroupRange>
@@ -1188,7 +1188,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1198,7 +1198,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>100</iPlayer>
+			<iPlayer>50</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1242,7 +1242,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1252,7 +1252,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>100</iPlayer>
+			<iPlayer>50</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1309,7 +1309,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1319,7 +1319,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>67</iPlayer>
+			<iPlayer>33</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1363,7 +1363,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1373,7 +1373,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>100</iPlayer>
+			<iPlayer>50</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1416,7 +1416,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1426,7 +1426,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>67</iPlayer>
+			<iPlayer>33</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1465,7 +1465,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>40</iMaxLatitude>
@@ -1475,7 +1475,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>100</iPlayer>
+			<iPlayer>50</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1524,7 +1524,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1534,7 +1534,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>100</iPlayer>
+			<iPlayer>50</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1583,7 +1583,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1593,7 +1593,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>67</iPlayer>
+			<iPlayer>33</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1636,7 +1636,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>60</iMaxLatitude>
@@ -1646,7 +1646,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>100</iPlayer>
+			<iPlayer>50</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1698,7 +1698,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1708,7 +1708,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>100</iPlayer>
+			<iPlayer>50</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1752,7 +1752,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>5</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
 			<iMinLatitude>20</iMinLatitude>
 			<iMaxLatitude>50</iMaxLatitude>
@@ -1762,7 +1762,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>100</iPlayer>
+			<iPlayer>50</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>0</iUnique>
@@ -1802,7 +1802,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>6</iPlacementOrder>
-			<iConstAppearance>50</iConstAppearance>
+			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMinLatitude>50</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
@@ -1812,7 +1812,7 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<iPlayer>67</iPlayer>
+			<iPlayer>33</iPlayer>
 			<iTilesPer>0</iTilesPer>
 			<iMinLandPercent>0</iMinLandPercent>
 			<iUnique>1</iUnique>
