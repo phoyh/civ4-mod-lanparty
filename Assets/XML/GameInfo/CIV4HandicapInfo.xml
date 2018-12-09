@@ -400,7 +400,7 @@
 			<iHealthBonus>2</iHealthBonus>
 			<iHappyBonus>4</iHappyBonus>
 			<iAttitudeChange>-1</iAttitudeChange>
-			<iNoTechTradeModifier>60</iNoTechTradeModifier>
+			<iNoTechTradeModifier>70</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<iUnownedTilesPerGameAnimal>15</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>15</iUnownedTilesPerBarbarianUnit>
@@ -486,7 +486,7 @@
 			<iHealthBonus>2</iHealthBonus>
 			<iHappyBonus>4</iHappyBonus>
 			<iAttitudeChange>-1</iAttitudeChange>
-			<iNoTechTradeModifier>50</iNoTechTradeModifier>
+			<iNoTechTradeModifier>70</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<iUnownedTilesPerGameAnimal>15</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>15</iUnownedTilesPerBarbarianUnit>
@@ -572,7 +572,7 @@
 			<iHealthBonus>2</iHealthBonus>
 			<iHappyBonus>4</iHappyBonus>
 			<iAttitudeChange>-1</iAttitudeChange>
-			<iNoTechTradeModifier>40</iNoTechTradeModifier>
+			<iNoTechTradeModifier>70</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<iUnownedTilesPerGameAnimal>15</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>15</iUnownedTilesPerBarbarianUnit>
@@ -658,7 +658,7 @@
 			<iHealthBonus>2</iHealthBonus>
 			<iHappyBonus>4</iHappyBonus>
 			<iAttitudeChange>-1</iAttitudeChange>
-			<iNoTechTradeModifier>30</iNoTechTradeModifier>
+			<iNoTechTradeModifier>70</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<iUnownedTilesPerGameAnimal>15</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>15</iUnownedTilesPerBarbarianUnit>
@@ -744,7 +744,7 @@
 			<iHealthBonus>2</iHealthBonus>
 			<iHappyBonus>4</iHappyBonus>
 			<iAttitudeChange>-1</iAttitudeChange>
-			<iNoTechTradeModifier>20</iNoTechTradeModifier>
+			<iNoTechTradeModifier>70</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
 			<iUnownedTilesPerGameAnimal>15</iUnownedTilesPerGameAnimal>
 			<iUnownedTilesPerBarbarianUnit>15</iUnownedTilesPerBarbarianUnit>
