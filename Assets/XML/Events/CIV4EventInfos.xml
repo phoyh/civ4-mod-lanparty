@@ -27200,7 +27200,7 @@
 			<BuildingExtraYields/>
 			<BuildingExtraCommerces>
 				<BuildingExtraCommerce>
-					<BuildingClass>BUILDINGCLASS_CHRISTIAN_MONASTERY</BuildingClass>
+					<BuildingClass>BUILDINGCLASS_CATHOLIC_MONASTERY</BuildingClass>
 					<CommerceType>COMMERCE_CULTURE</CommerceType>
 					<iExtraCommerce>2</iExtraCommerce>
 				</BuildingExtraCommerce>
@@ -27287,12 +27287,12 @@
 			<BuildingExtraYields/>
 			<BuildingExtraCommerces>
 				<BuildingExtraCommerce>
-					<BuildingClass>BUILDINGCLASS_CHRISTIAN_MONASTERY</BuildingClass>
+					<BuildingClass>BUILDINGCLASS_CATHOLIC_MONASTERY</BuildingClass>
 					<CommerceType>COMMERCE_RESEARCH</CommerceType>
 					<iExtraCommerce>4</iExtraCommerce>
 				</BuildingExtraCommerce>
 				<BuildingExtraCommerce>
-					<BuildingClass>BUILDINGCLASS_CHRISTIAN_MONASTERY</BuildingClass>
+					<BuildingClass>BUILDINGCLASS_CATHOLIC_MONASTERY</BuildingClass>
 					<CommerceType>COMMERCE_CULTURE</CommerceType>
 					<iExtraCommerce>2</iExtraCommerce>
 				</BuildingExtraCommerce>
@@ -28231,7 +28231,12 @@
 					<iExtraCommerce>2</iExtraCommerce>
 				</BuildingExtraCommerce>
 				<BuildingExtraCommerce>
-					<BuildingClass>BUILDINGCLASS_CHRISTIAN_CATHEDRAL</BuildingClass>
+					<BuildingClass>BUILDINGCLASS_CATHOLIC_CATHEDRAL</BuildingClass>
+					<CommerceType>COMMERCE_GOLD</CommerceType>
+					<iExtraCommerce>2</iExtraCommerce>
+				</BuildingExtraCommerce>
+				<BuildingExtraCommerce>
+					<BuildingClass>BUILDINGCLASS_PROTESTANT_CATHEDRAL</BuildingClass>
 					<CommerceType>COMMERCE_GOLD</CommerceType>
 					<iExtraCommerce>2</iExtraCommerce>
 				</BuildingExtraCommerce>

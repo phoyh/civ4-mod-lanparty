@@ -160,13 +160,22 @@
 			<DefaultUnit>UNIT_JEWISH_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_CHRISTIAN_MISSIONARY</Type>
-			<Description>TXT_KEY_UNIT_CHRISTIAN_MISSIONARY</Description>
+			<Type>UNITCLASS_CATHOLIC_MISSIONARY</Type>
+			<Description>TXT_KEY_UNIT_CATHOLIC_MISSIONARY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>3</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_CHRISTIAN_MISSIONARY</DefaultUnit>
+			<DefaultUnit>UNIT_CATHOLIC_MISSIONARY</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_PROTESTANT_MISSIONARY</Type>
+			<Description>TXT_KEY_UNIT_PROTESTANT_MISSIONARY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_PROTESTANT_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_ISLAMIC_MISSIONARY</Type>

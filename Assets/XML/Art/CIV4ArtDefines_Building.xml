@@ -788,6 +788,16 @@
 			<Button>,Art/Interface/Buttons/Buildings/Shrine_Jewish.dds,Art/Interface/Buttons/Buildings_Atlas.dds,7,14</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_CATHOLIC_TEMPLE</Type>
+			<LSystem>LSYSTEM_2x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.20</fScale>
+			<fInterfaceScale>0.42</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Cathedrals/christian cathedral.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Buildings/catholic_temple.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CHRISTIAN_TEMPLE</Type>
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>1</bAnimated>
@@ -798,34 +808,74 @@
 			<Button>,Art/Interface/Buttons/Buildings/Temple_Christian.dds,Art/Interface/Buttons/Buildings_Atlas.dds,8,13</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_CHRISTIAN_CATHEDRAL</Type>
+			<Type>ART_DEF_BUILDING_CATHOLIC_CATHEDRAL</Type>
 			<LSystem>LSYSTEM_3x3</LSystem>
 			<bAnimated>0</bAnimated>
-			<fScale>1.49</fScale>
-			<fInterfaceScale>0.42</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Cathedrals/christian cathedral.nif</NIF>
+			<fScale>2.00</fScale>
+			<fInterfaceScale>0.65</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Christian_Cathedral/kathedrale.nif</NIF>
 			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/Cathedral_Christian.dds,Art/Interface/Buttons/Buildings_Atlas.dds,5,13</Button>
+			<Button>Art/Interface/Buttons/Buildings/catholic_cathedral.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_CHRISTIAN_MONASTERY</Type>
+			<Type>ART_DEF_BUILDING_CATHOLIC_MONASTERY</Type>
 			<LSystem>LSYSTEM_2x3</LSystem>
 			<bAnimated>1</bAnimated>
 			<fScale>2.63</fScale>
 			<fInterfaceScale>0.44</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Monastery/Christian/christian monastery.nif</NIF>
 			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/Monastery_Christian.dds,Art/Interface/Buttons/Buildings_Atlas.dds,6,13</Button>
+			<Button>Art/Interface/Buttons/Buildings/catholic_monastery.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_CHRISTIAN_SHRINE</Type>
+			<Type>ART_DEF_BUILDING_CATHOLIC_SHRINE</Type>
 			<LSystem>LSYSTEM_2x4</LSystem>
 			<bAnimated>0</bAnimated>
-			<fScale>1.31</fScale>
-			<fInterfaceScale>0.48</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Shrine/christian shrine.nif</NIF>
+			<fScale>0.28</fScale>
+			<fInterfaceScale>0.4</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Apostolic_Palace/Apostolic_Palace.nif</NIF>
 			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/Shrine_Christian.dds,Art/Interface/Buttons/Buildings_Atlas.dds,7,13</Button>
+			<Button>Art/Interface/Buttons/Buildings/ApostolicPalace.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_PROTESTANT_TEMPLE</Type>
+			<LSystem>LSYSTEM_2x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.20</fScale>
+			<fInterfaceScale>0.42</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Cathedrals/christian cathedral.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Buildings/ProtestantTemple.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_PROTESTANT_CATHEDRAL</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>2.00</fScale>
+			<fInterfaceScale>0.65</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Christian_Cathedral/kathedrale.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Buildings/ProtestantCathedral.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_PROTESTANT_MONASTERY</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
+			<bAnimated>1</bAnimated>
+			<fScale>2.63</fScale>
+			<fInterfaceScale>0.44</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Monastery/Christian/christian monastery.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Buildings/ProtestantMonastery.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_PROTESTANT_SHRINE</Type>
+			<LSystem>LSYSTEM_2x4</LSystem>
+			<bAnimated>1</bAnimated>
+			<fScale>3.0</fScale>
+			<fInterfaceScale>0.3</fInterfaceScale>
+			<NIF>Art/Structures/Wonders/Protestant Shrine/WittenbergChurch.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Buildings/Wittenberg.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ISLAMIC_TEMPLE</Type>

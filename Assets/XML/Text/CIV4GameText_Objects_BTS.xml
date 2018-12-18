@@ -2818,32 +2818,52 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_RELIGION_CHRISTIANITY_ADJECTIVE</Tag>
+		<Tag>TXT_KEY_RELIGION_CATHOLICISM_ADJECTIVE</Tag>
 		<English>
-			<Text>Christian</Text>
+			<Text>Catholic</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>chr&#233;tien:chr&#233;tienne:chr&#233;tiens:chr&#233;tiennes</Text>
+			<Text>catholique:catholique:catholiques:catholiques</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
 		<German>
-			<Text>Christlich:christlichen:christliche</Text>
+			<Text>Katholisch:katholischen:katholische</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
 		<Italian>
-			<Text>dei cristiani</Text>
+			<Text>Cattolico</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>cristiano:cristiana:cristianos:cristianas</Text>
+			<Text>Católico</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_PROTESTANTISM_ADJECTIVE</Tag>
+		<English>Protestant</English>
+		<French>
+			<Text>protestant:protestante:protestants:protestantes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
-		</Spanish>
+		</French>
+		<German>
+			<Text>J&#252;disch:j&#252;dischen:j&#252;dische</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Protestante</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>Protestante</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_ISLAM_ADJECTIVE</Tag>

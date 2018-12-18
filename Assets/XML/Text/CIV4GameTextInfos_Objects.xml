@@ -2502,28 +2502,28 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_CHRISTIAN_MISSIONARY</Tag>
-		<English>Christian Missionary</English>
+		<Tag>TXT_KEY_UNIT_CATHOLIC_MISSIONARY</Tag>
+		<English>Catholic Missionary</English>
 		<French>
-			<Text>Missionnaire chr&#233;tien</Text>
+			<Text>Missionnaire catholique</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Christlicher Missionar</Text>
+		<German>Katholischer Missionar</German>
+		<Italian>Catholic Missionary</Italian>
+		<Spanish>Catholic Missionary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PROTESTANT_MISSIONARY</Tag>
+		<English>Protestant Missionary</English>
+		<French>
+			<Text>Missionnaire protestant</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Missionario Cristiano:Missionari Cristiani</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Misionero cristiano:Misioneros cristianos</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
-		</Spanish>
+		</French>
+		<German>Protestantischer Missionar</German>
+		<Italian>Protestant Missionary</Italian>
+		<Spanish>Protestant Missionary</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ISLAMIC_MISSIONARY</Tag>
@@ -9343,28 +9343,28 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_RELIGION_CHRISTIANITY</Tag>
-		<English>Christianity</English>
+		<Tag>TXT_KEY_RELIGION_CATHOLICISM</Tag>
+		<English>Catholicism</English>
 		<French>
-			<Text>Christianisme</Text>
+			<Text>Catholicisme</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Christentum</Text>
+		<German>Katholizismus</German>
+		<Italian>Catholicism</Italian>
+		<Spanish>Catholicismo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_PROTESTANTISM</Tag>
+		<English>Protestantism</English>
+		<French>
+			<Text>Protestantisme</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Cristianesimo:Cristiana</Text>
-			<Gender>Male:Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Cristianismo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
+		</French>
+		<German>Protestantism</German>
+		<Italian>Protestantism</Italian>
+		<Spanish>Protestantismo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_ISLAM</Tag>
@@ -13159,100 +13159,112 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_CHRISTIAN_TEMPLE</Tag>
-		<English>Christian Temple</English>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_TEMPLE</Tag>
+		<English>Catholic Church</English>
 		<French>
-			<Text>Eglise</Text>
+			<Text>&#201;glise catholique:&#201;glises catholiques</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Katholische Kirche</German>
+		<Italian>Chiesa Cattolica</Italian>
+		<Spanish>Iglesia Cat&#243;lica</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_MONASTERY</Tag>
+		<English>Catholic Monastery</English>
+		<French>
+			<Text>Monast&#232;re catholique:Monast&#232;res catholiques</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Katholisches Kloster</German>
+		<Italian>Monastero Cattolico</Italian>
+		<Spanish>Monasterio cat&#243;lico</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_CATHEDRAL</Tag>
+		<English>Catholic Cathedral</English>
+		<French>
+			<Text>Cath&#233;drale catholique:Cath&#233;drales catholiques</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Katholische Kathedrale</German>
+		<Italian>Cattedrale Cattolica</Italian>
+		<Spanish>Catedral cat&#243;lica</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_SHRINE</Tag>
+		<English>Saint Peter's Basilica</English>
+		<French>
+			<Text>Basilique Saint-Pierre</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Christlicher Tempel</Text>
+			<Text>Petersdom</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Tempio Cristiano:Templi Cristiani</Text>
+			<Text>Basilica di San Pietro</Text>
 			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
+			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Templo cristiano:Templos cristianos</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
+			<Text>Basílica de San Pedro</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_CHRISTIAN_MONASTERY</Tag>
-		<English>Christian Monastery</English>
+		<Tag>TXT_KEY_BUILDING_PROTESTANT_TEMPLE</Tag>
+		<English>Protestant Church</English>
 		<French>
-			<Text>Monast&#232;re chr&#233;tien</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
+			<Text>&#201;glise protestante:&#201;glises protestantes</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
 		</French>
-		<German>
-			<Text>Christliches Kloster</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Monastero Cristiano:Monasteri Cristiani</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Monasterio cristiano:Monasterios cristianos</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
-		</Spanish>
+		<German>Protestantische Kirche</German>
+		<Italian>Chiesa Protestante</Italian>
+		<Spanish>Iglesia protestante</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_CHRISTIAN_CATHEDRAL</Tag>
-		<English>Christian Cathedral</English>
+		<Tag>TXT_KEY_BUILDING_PROTESTANT_MONASTERY</Tag>
+		<English>Protestant Seminary</English>
 		<French>
-			<Text>Cath&#233;drale</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Christliche Kathedrale</Text>
+			<Text>S&#233;minaire protestant:S&#233;minaires protestants</Text>
 			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Cattedrale Cristiana:Cattedrali Cristiane</Text>
-			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Catedral cristiana:Catedrales cristianas</Text>
-			<Gender>Female</Gender>
-			<Plural>0:1</Plural>
-		</Spanish>
+		</French>
+		<German>Protestantisches Seminar</German>
+		<Italian>Seminario Protestante</Italian>
+		<Spanish>Seminario protestante</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_CHRISTIAN_SHRINE</Tag>
-		<English>The Church of the Nativity</English>
+		<Tag>TXT_KEY_BUILDING_PROTESTANT_CATHEDRAL</Tag>
+		<English>Protestant Cathedral</English>
 		<French>
-			<Text>Basilique de la Nativit&#233;</Text>
+			<Text>Cath&#233;drale protestante:Cath&#233;drales protestantes</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Protestantische Kathedrale</German>
+		<Italian>Cattedrale Protestante</Italian>
+		<Spanish>Catedral protestante</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROTESTANT_SHRINE</Tag>
+		<English>All Saints' Church</English>
+		<French>
+			<Text>&#201;glise de la Toussaint</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Geburtskirche</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>La Chiesa della Nativit&#224;</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Iglesia de la Natividad</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
+		<German>All Saints' Church</German>
+		<Italian>All Saints' Church</Italian>
+		<Spanish>All Saints' Church</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ISLAMIC_TEMPLE</Tag>
