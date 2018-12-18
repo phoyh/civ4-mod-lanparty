@@ -44,10 +44,10 @@
 			<Civilopedia>TXT_KEY_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
 			<TechPrereq>TECH_THEOLOGY</TechPrereq>
 			<FreeUnitClass>UNITCLASS_CHRISTIAN_MISSIONARY</FreeUnitClass>
-			<iFreeUnits>1</iFreeUnits>
+			<iFreeUnits>2</iFreeUnits>
 			<iSpreadFactor>100</iSpreadFactor>
 			<GlobalReligionCommerces>
-				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
+				<iGlobalReligionCommerce>2</iGlobalReligionCommerce>
 				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
 				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
 			</GlobalReligionCommerces>
