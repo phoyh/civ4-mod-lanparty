@@ -14,7 +14,7 @@
 			<TechPrereq>TECH_MONOTHEISM</TechPrereq>
 			<FreeUnitClass>UNITCLASS_JEWISH_MISSIONARY</FreeUnitClass>
 			<iFreeUnits>0</iFreeUnits>
-			<iSpreadFactor>100</iSpreadFactor>
+			<iSpreadFactor>10</iSpreadFactor>
 			<GlobalReligionCommerces>
 				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
 				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
@@ -26,7 +26,7 @@
 				<iHolyCityCommerce>4</iHolyCityCommerce>
 			</HolyCityCommerces>
 			<StateReligionCommerces>
-				<iStateReligionCommerce>0</iStateReligionCommerce>
+				<iStateReligionCommerce>3</iStateReligionCommerce>
 				<iStateReligionCommerce>0</iStateReligionCommerce>
 				<iStateReligionCommerce>1</iStateReligionCommerce>
 			</StateReligionCommerces>
