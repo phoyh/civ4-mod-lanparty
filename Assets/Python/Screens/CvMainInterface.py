@@ -4093,7 +4093,7 @@ class CvMainInterface:
 				else:
 					
 					for i in range(gc.getNumReligionInfos()):
-						xCoord = xResolution - 242 + (i * 34)
+						xCoord = xResolution - 242 + (i * 29)
 						yCoord = 42
 						
 						bEnable = True
