@@ -17385,13 +17385,13 @@
 			<UnitClassAttackMods>
 				<UnitClassAttackMod>
 					<UnitClassType>UNITCLASS_GALLEY</UnitClassType>
-					<iUnitClassMod>50</iUnitClassMod>
+					<iUnitClassMod>100</iUnitClassMod>
 				</UnitClassAttackMod>
 			</UnitClassAttackMods>
 			<UnitClassDefenseMods>
 				<UnitClassDefenseMod>
 					<UnitClassType>UNITCLASS_GALLEY</UnitClassType>
-					<iUnitClassMod>50</iUnitClassMod>
+					<iUnitClassMod>100</iUnitClassMod>
 				</UnitClassDefenseMod>
 			</UnitClassDefenseMods>
 			<UnitCombatMods/>
