@@ -2334,6 +2334,34 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_WOLF</Tag>
+		<English>Wolf</English>
+		<French>
+			<Text>Loup</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Wolf</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Lupo:Lupi</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Lobo:Lobos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DOGPACK</Tag>
+		<English>Pack of Dogs</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_SETTLER</Tag>
 		<English>Settler</English>
 		<French>
