@@ -2962,6 +2962,10 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_MERCENARY</Tag>
+		<English>Mercenary</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_FRENCH_MUSKETEER</Tag>
 		<English>Musketeer</English>
 		<French>
