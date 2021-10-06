@@ -2962,8 +2962,12 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_MERCENARY</Tag>
-		<English>Mercenary</English>
+		<Tag>TXT_KEY_UNIT_MERCENARY_WARRIOR</Tag>
+		<English>Mercenary Warrior</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MERCENARY_MUSKETMAN</Tag>
+		<English>Mercenary Musketman</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_FRENCH_MUSKETEER</Tag>

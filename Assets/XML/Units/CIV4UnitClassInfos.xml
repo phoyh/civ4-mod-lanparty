@@ -826,13 +826,22 @@
 			<DefaultUnit>UNIT_DOGPACK</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_MERCENARY</Type>
-			<Description>TXT_KEY_UNIT_MERCENARY</Description>
+			<Type>UNITCLASS_MERCENARY_WARRIOR</Type>
+			<Description>TXT_KEY_UNIT_MERCENARY_WARRIOR</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_MERCENARY</DefaultUnit>
+			<DefaultUnit>UNIT_MERCENARY_WARRIOR</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_MERCENARY_MUSKETMAN</Type>
+			<Description>TXT_KEY_UNIT_MERCENARY_MUSKETMAN</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_MERCENARY_MUSKETMAN</DefaultUnit>
 		</UnitClassInfo>
 	</UnitClassInfos>
 </Civ4UnitClassInfos>
