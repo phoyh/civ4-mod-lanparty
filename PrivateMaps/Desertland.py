@@ -166,7 +166,7 @@ class OasisMultilayeredFractal(CvMapGeneratorUtil.MultilayeredFractal):
 		iHillsTop2 = regionHillsFrac.getHeightFromPercent(80)
 		# iPeakThreshold = regionPeaksFrac.getHeightFromPercent(25)
 		# OYH: much more peaks because more interesting strategically
-		iPeakThreshold = regionPeaksFrac.getHeightFromPercent(40)
+		iPeakThreshold = regionPeaksFrac.getHeightFromPercent(60)
 
 		# Loop through the region's plots. Oasis is only concerned with one region.
 		for x in range(iRegionWidth):
@@ -290,10 +290,10 @@ def generatePlotTypes():
 # Latitudes, ratios, the works... It's all rewired. - Sirian June 20, 2005
 
 class OasisTerrainGenerator(CvMapGeneratorUtil.TerrainGenerator):
-	def __init__(self, iGrassPercent=4, iPlainsPercent=4,
-	             iNorthernPlainsPercent=2, iOasisGrassPercent=3,
-	             iOasisPlainsPercent=3, iOasisTopLatitude=0.69,
-	             iJungleLatitude=5, iOasisBottomLatitude=0.3,
+	def __init__(self, iGrassPercent=2, iPlainsPercent=2,
+	             iNorthernPlainsPercent=2, iOasisGrassPercent=2,
+	             iOasisPlainsPercent=2, iOasisTopLatitude=0.69,
+	             iJungleLatitude=0, iOasisBottomLatitude=0.3,
 	             fracXExp=-1, fracYExp=-1, grain_amount=4):
 		
 		self.grain_amount = grain_amount
@@ -876,6 +876,16 @@ def addRivers():
 		WorldSizeTypes.WORLDSIZE_HUGE:      9
 		}
 	maxshift = shiftvalues[sizekey]
+	river_num_by_size = {
+		WorldSizeTypes.WORLDSIZE_DUEL:      1,
+		WorldSizeTypes.WORLDSIZE_TINY:      2,
+		WorldSizeTypes.WORLDSIZE_SMALL:     2,
+		WorldSizeTypes.WORLDSIZE_STANDARD:  3,
+		WorldSizeTypes.WORLDSIZE_LARGE:     3,
+		WorldSizeTypes.WORLDSIZE_HUGE:      4
+		}
+	maxshift = shiftvalues[sizekey]
+	river_num = river_num_by_size[sizekey]
 
 	# Place the Rivers
 	NiTextOut("Charting Rivers (Python Oasis) ...")
@@ -888,9 +898,9 @@ def addRivers():
 	thirdQuadCenter = iW / 8 + 2 * (iW / 4)
 	fourthQuadCenter = iW / 8 + 3 * (iW / 4)
 	# Quadrant Names
-	# quadrants = [firstQuadCenter, secondQuadCenter, thirdQuadCenter, fourthQuadCenter]
-	# OYH: only 2 rivers enough for small maps
-	quadrants = [firstQuadCenter, thirdQuadCenter]
+	quadrants = [firstQuadCenter, secondQuadCenter, thirdQuadCenter, fourthQuadCenter]
+	# OYH: fewer than 4 river on smaller maps
+	quadrants = quadrants[:max(river_num, 3):(4 // river_num)]
 
 	# Place rivers.
 	for center in quadrants:
