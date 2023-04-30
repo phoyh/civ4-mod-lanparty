@@ -290,10 +290,10 @@ def generatePlotTypes():
 # Latitudes, ratios, the works... It's all rewired. - Sirian June 20, 2005
 
 class OasisTerrainGenerator(CvMapGeneratorUtil.TerrainGenerator):
-	def __init__(self, iGrassPercent=2, iPlainsPercent=2,
-	             iNorthernPlainsPercent=2, iOasisGrassPercent=2,
-	             iOasisPlainsPercent=2, iOasisTopLatitude=0.69,
-	             iJungleLatitude=0, iOasisBottomLatitude=0.3,
+	def __init__(self, iGrassPercent=4, iPlainsPercent=4,
+	             iNorthernPlainsPercent=2, iOasisGrassPercent=3,
+	             iOasisPlainsPercent=3, iOasisTopLatitude=0.69,
+	             iJungleLatitude=5, iOasisBottomLatitude=0.3,
 	             fracXExp=-1, fracYExp=-1, grain_amount=4):
 		
 		self.grain_amount = grain_amount
@@ -499,8 +499,8 @@ class OasisFeatureGenerator(CvMapGeneratorUtil.FeatureGenerator):
 		if pPlot.isFlatlands() and (pPlot.getFeatureType() == FeatureTypes.NO_FEATURE) and (pPlot.getTerrainType() == self.gc.getInfoTypeForString("TERRAIN_DESERT")):
 			# Add more Oases!
 			# if (lat < 0.71 and lat > 0.3) and self.mapRand.get(9, "Add Extra Oases PYTHON") == 0:
-			# OYH: Not so - only few (1/4) of them
-			if (lat < 0.71 and lat > 0.3) and self.mapRand.get(36, "Add Extra Oases PYTHON") == 0:
+			# OYH: Not so - only few (1/8) of them
+			if (lat < 0.71 and lat > 0.3) and self.mapRand.get(72, "Add Extra Oases PYTHON") == 0:
 				pPlot.setFeatureType(self.featureOasis, -1)
                                 		
 	def addIceAtPlot(self, pPlot, iX, iY, lat):
@@ -667,6 +667,8 @@ def addBonusType(argsList):
 		playermodifier = plrmethods[dice.get(4, "Bonus Method - Oasis PYTHON")]
 
 		count = sizemodifier + playermodifier
+		# OYH: fewer bonuses to make cities mostly not viable in desert
+		count = count // 2
 		if (type_string in forceRarity):
 			count = dice.get(sizemodifier + 1, "Forced Bonus Rarity - Oasis PYTHON")
 		if (type_string in forceAbundance):
