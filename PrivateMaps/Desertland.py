@@ -572,9 +572,10 @@ up to the end of development.
 '''
 
 # Init all bonuses. This is your master key.
-resourcesInOasis = ('BONUS_ALUMINUM', 'BONUS_IRON', 'BONUS_OIL', 'BONUS_STONE',
-                     'BONUS_GOLD', 'BONUS_INCENSE', 'BONUS_IVORY')
-resourcesInNorth = ('BONUS_HORSE', 'BONUS_MARBLE', 'BONUS_FUR', 'BONUS_SILVER',
+# OYH: more strategic resources in every section (iron, horse, stone)
+resourcesInOasis = ('BONUS_ALUMINUM', 'BONUS_OIL', 'BONUS_STONE',
+                     'BONUS_GOLD', 'BONUS_INCENSE', 'BONUS_IVORY', 'BONUS_MARBLE')
+resourcesInNorth = ('BONUS_MARBLE', 'BONUS_FUR', 'BONUS_SILVER',
                     'BONUS_SPICES', 'BONUS_WINE', 'BONUS_WHALE', 'BONUS_CLAM',
                     'BONUS_CRAB', 'BONUS_FISH', 'BONUS_SHEEP', 'BONUS_WHEAT')
 resourcesInSouth = ('BONUS_DYE', 'BONUS_FUR', 'BONUS_GEMS', 'BONUS_SILK', 'BONUS_SUGAR',
@@ -587,7 +588,8 @@ forcePlacementOnGrass = ('BONUS_DEER')
 forcePlacementOnHills = ('BONUS_SILVER')
 forceRarity = ('BONUS_SILK', 'BONUS_WHALE')
 forceAbundance = ('BONUS_FUR', 'BONUS_IRON', 'BONUS_IVORY', 'BONUS_HORSE', 'BONUS_OIL')
-oasisCorn = ('BONUS_CORN')
+# OYH: more strategic resources
+oasisCorn = ('BONUS_CORN', 'BONUS_IRON', 'BONUS_HORSE', 'BONUS_STONE', 'BONUS_MARBLE', 'BONUS_COAL', 'BONUS_OIL', 'BONUS_ALUMINUM', 'BONUS_URANIUM')
 
 def addBonusType(argsList):
 	[iBonusType] = argsList
@@ -618,11 +620,17 @@ def addBonusType(argsList):
 			crops = CyFractal()
 			crops.fracInit(iW, iH, 7, dice, 0, -1, -1)
 			iCropsBottom1 = crops.getHeightFromPercent(24)
-			iCropsTop1 = crops.getHeightFromPercent(27)
-			iCropsBottom2 = crops.getHeightFromPercent(73)
-			iCropsTop2 = crops.getHeightFromPercent(75)
-			cropNorth = int(iH * 0.66)
-			cropSouth = int(iH * 0.32)
+			iCropsBottom2 = crops.getHeightFromPercent(74)
+			# OYH: set strategic resources throughout the desert, but reduce occurrence (because now so many)
+			# OYH: focus on horse and iron for better bootstrapping
+			if type_string in ('BONUS_HORSE', 'BONUS_IRON'):
+				iCropsTop1 = crops.getHeightFromPercent(27)
+				iCropsTop2 = crops.getHeightFromPercent(77)
+			else:
+				iCropsTop1 = crops.getHeightFromPercent(25)
+				iCropsTop2 = crops.getHeightFromPercent(75)
+			cropNorth = int(iH * 0.86)
+			cropSouth = int(iH * 0.12)
 			for y in range(cropSouth, cropNorth):
 				for x in range(iW):
 					# Fractalized placement of crops
@@ -878,9 +886,9 @@ def addRivers():
 	maxshift = shiftvalues[sizekey]
 	river_num_by_size = {
 		WorldSizeTypes.WORLDSIZE_DUEL:      1,
-		WorldSizeTypes.WORLDSIZE_TINY:      2,
+		WorldSizeTypes.WORLDSIZE_TINY:      1,
 		WorldSizeTypes.WORLDSIZE_SMALL:     2,
-		WorldSizeTypes.WORLDSIZE_STANDARD:  3,
+		WorldSizeTypes.WORLDSIZE_STANDARD:  2,
 		WorldSizeTypes.WORLDSIZE_LARGE:     3,
 		WorldSizeTypes.WORLDSIZE_HUGE:      4
 		}
